@@ -3,7 +3,7 @@ function identifyPrime(num) {
     
     if(num>1){
         for(let i=2;i<num;i++){
-        if(num%i !=0){
+        if(num%i ==0){
             PrimeNumber=false;
             break;
         }
@@ -16,7 +16,7 @@ function identifyPrime(num) {
     }
     }
     else{
-        console.log(" 1 & Negative numbers cannot be prime")
+        console.log("  0,1 & Negative numbers cannot be prime")
     }
 }
 
